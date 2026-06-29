@@ -380,7 +380,7 @@ go run 01-arrays/two_pointers.go
 
 **Upendra** — Co-founder @ [Air Dive Pvt. Ltd.](https://airdive.co.in) | DevOps Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)]([[https://linkedin.com/in/your-profile](https://www.linkedin.com/in/upendra-verma-3a3212293/)](https://www.linkedin.com/in/upendra-verma-3a3212293/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/upendra-verma-3a3212293/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/Upendra-23-cmd)
 
 ---
