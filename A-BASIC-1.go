@@ -41,3 +41,11 @@ package main
 // # 7. Repeated work:
 // # 8. Pattern:
 // # 9. Why?
+
+package main
+
+func main() {
+
+	print("Hello, World!")
+
+}
