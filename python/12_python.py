@@ -27,6 +27,8 @@
 # 4 + (-1) + 2 + 1 = 6
 # and no other contiguous subarray has a larger sum.
 
+
+# kadane's algorithm
 def max_subarray_sum(arr):
     max_sum = arr[0]
     current_sum = arr[0]

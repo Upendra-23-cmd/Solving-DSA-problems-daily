@@ -46,3 +46,20 @@
 # 8. Pattern / Algorithm:
 # # 9. Why?
 
+def printer_operations(operations):
+    from collections import deque
+    queue = deque()
+
+    results = []
+    for operation in operations:
+        if operation[0] == 1:
+            queue.append(operation[1])
+        elif operation[0] == 2:
+            if queue:
+                results.append(queue.popleft())
+            else:
+                results.append(-1)
+    return results
+
+operation  = [  (1, 10), (1, 20), (2,), (1, 30), (2,), (2,), (2,)]
+print(printer_operations(operation))  # Output: [10, 20, 30, -1]
