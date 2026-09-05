@@ -32,3 +32,16 @@
 # Pattern / Algorithm
 # Why?
 
+def max_request(arr, k):
+    max_sum = 0
+    current_sum = sum(arr[:k])
+    max_sum = current_sum
+
+    for i in range(k, len(arr)):
+        current_sum += arr[i] - arr[i-k]
+        max_sum = max(max_sum, current_sum)
+
+    return max_sum
+
+arr = [2, 1, 5, 1, 3, 2, 6, 1]
+print(max_request(arr, 3))  # Output: 11
